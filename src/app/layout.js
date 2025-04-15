@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="dark:bg-gray-950 dark:text-white bg-gray-100 text-black">{children}</div>
       </body>
     </html>
   );
